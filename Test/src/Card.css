@@ -1,0 +1,48 @@
+@font-face {
+    font-family: poppins ;
+    src: url(D:\Nayan\LearningReact\Test\public\fonts\Poppins\Poppins-Light.ttf);
+}
+.card
+{
+    font-family: poppins;
+    font-size:12px;
+    width:176px;
+    height:332px;
+    margin-left:150px;
+    margin-top:50px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    cursor:pointer;
+}
+.card img
+{
+    width: 350px;
+    height: 450px;
+    border-radius: 9px;
+}
+.card-stats
+{
+    width: 350px;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+}
+.stars
+{
+    display: flex;
+}
+.stars span
+{
+    margin-left:6px;
+    font-size:20px ;
+}
+.card-stats img
+{
+    width:30px;
+    height:30px;
+}
+.card-stats p
+{
+    margin:0;
+    font-size:20px;
+}

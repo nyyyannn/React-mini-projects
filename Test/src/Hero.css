@@ -1,0 +1,45 @@
+@font-face {
+    font-family: poppins ;
+    src: url(D:\Nayan\LearningReact\Test\public\fonts\Poppins\Poppins-Light.ttf);
+}
+*
+{
+    margin:0px;
+    box-sizing: border-box;
+}
+.container 
+{
+    margin-top:26px;
+    display: flex;
+    flex-direction: column;
+}
+.container img
+{
+
+    width:70%;
+    height:70%;
+    margin-left:150px;
+}
+.info
+{
+    width:50%;
+    height:50%;
+    margin-left:150px;
+    margin-top: 50px;
+}
+.info h1
+{
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+.info p
+{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 30px;
+    width:500px;
+    margin-top:30px;
+}
