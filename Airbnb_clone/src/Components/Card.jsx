@@ -1,20 +1,20 @@
 import React from "react";
 import './Card.css';
 
-function Card()
+function Card(props)
 {
     return(
         <div className="card">
-            <img src="images/katie.jpeg"/>
+            <img src={props.image}/>
             <div className="card-stats">
                 <div className="stars">
                     <img src="images/star.png"/>
-                    <span>5.0</span>
-                    <span>(6)</span>
-                    <span>USA</span>
+                    <span>{props.rating}</span>
+                    <span>({props.reviewCount})</span>
+                    <span>{props.country}</span>
                 </div>
-                <p>Life Lessons with Katie Zaferes</p>
-                <p><b>From $136 /</b> person</p>
+                <p>{props.title}</p>
+                <p><b>From ${props.price} /</b> person</p>
             </div>
         </div>
     )
